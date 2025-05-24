@@ -1,0 +1,144 @@
+$date
+	Fri May 23 00:33:46 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module counter4_tb $end
+$var wire 4 ! count [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # cntby2 $end
+$var reg 1 $ nE $end
+$var reg 1 % nReset $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # cntby2 $end
+$var wire 1 $ nE $end
+$var wire 1 % nReset $end
+$var reg 4 & count [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+0%
+1$
+0#
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+1%
+#15
+1"
+#20
+0"
+#25
+1"
+#30
+0"
+0$
+#35
+b1 !
+b1 &
+1"
+#40
+0"
+#45
+b10 !
+b10 &
+1"
+#50
+0"
+#55
+b11 !
+b11 &
+1"
+#60
+0"
+#65
+b100 !
+b100 &
+1"
+#70
+0"
+1#
+#75
+b110 !
+b110 &
+1"
+#80
+0"
+#85
+b1000 !
+b1000 &
+1"
+#90
+0"
+#95
+b1010 !
+b1010 &
+1"
+#100
+0"
+#105
+b1100 !
+b1100 &
+1"
+#110
+0"
+0#
+#115
+b1101 !
+b1101 &
+1"
+#120
+0"
+#125
+b1110 !
+b1110 &
+1"
+#130
+0"
+#135
+b1111 !
+b1111 &
+1"
+#140
+0"
+#145
+b0 !
+b0 &
+1"
+#150
+0"
+1$
+#155
+1"
+#160
+0"
+#165
+1"
+#170
+0"
+0%
+#175
+1"
+#180
+0"
+1%
+#185
+1"
+#190
+0"
+#195
+1"
+#200
+0"

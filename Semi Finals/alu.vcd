@@ -1,0 +1,111 @@
+$date
+	Fri May 23 01:03:26 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Sigbin_testbench $end
+$var wire 2 ! x [1:0] $end
+$var wire 2 " s [1:0] $end
+$var wire 1 # R $end
+$scope module arithmetic $end
+$var reg 2 $ S [1:0] $end
+$var reg 2 % x [1:0] $end
+$upscope $end
+$scope module arithmeticOps $end
+$var wire 2 & s [1:0] $end
+$var wire 2 ' x [1:0] $end
+$var reg 1 # R $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+b0 $
+0#
+b0 "
+b0 !
+$end
+#3
+1#
+b1 !
+b1 %
+b1 '
+#6
+b10 !
+b10 %
+b10 '
+#9
+0#
+b11 !
+b11 %
+b11 '
+#12
+b0 !
+b0 %
+b0 '
+b1 "
+b1 $
+b1 &
+#15
+1#
+b1 !
+b1 %
+b1 '
+#18
+b10 !
+b10 %
+b10 '
+#21
+0#
+b11 !
+b11 %
+b11 '
+#24
+b0 !
+b0 %
+b0 '
+b10 "
+b10 $
+b10 &
+#27
+b1 !
+b1 %
+b1 '
+#30
+b10 !
+b10 %
+b10 '
+#33
+1#
+b11 !
+b11 %
+b11 '
+#36
+0#
+b0 !
+b0 %
+b0 '
+b11 "
+b11 $
+b11 &
+#39
+1#
+b1 !
+b1 %
+b1 '
+#42
+b10 !
+b10 %
+b10 '
+#45
+b11 !
+b11 %
+b11 '
+#48

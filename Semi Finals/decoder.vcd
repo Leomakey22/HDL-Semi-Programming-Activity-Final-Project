@@ -1,0 +1,61 @@
+$date
+	Fri May 23 01:20:29 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench_decoder_3x8 $end
+$var wire 8 ! output_bits [7:0] $end
+$var reg 3 " input_bits [2:0] $end
+$scope module uut $end
+$var wire 3 # input_bits [2:0] $end
+$var reg 8 $ output_bits [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 $
+b0 #
+b0 "
+b1 !
+$end
+#3
+b10 !
+b10 $
+b1 "
+b1 #
+#6
+b100 !
+b100 $
+b10 "
+b10 #
+#9
+b1000 !
+b1000 $
+b11 "
+b11 #
+#12
+b10000 !
+b10000 $
+b100 "
+b100 #
+#15
+b100000 !
+b100000 $
+b101 "
+b101 #
+#18
+b1000000 !
+b1000000 $
+b110 "
+b110 #
+#21
+b10000000 !
+b10000000 $
+b111 "
+b111 #
+#24
